@@ -4,12 +4,28 @@
     color: #FFF;
     font-family: Gilroy-ExtraBold;
 
+    @media (max-width: 768px) {
+        padding: 20px 0;
+    }
+
     &__pill {
         background-image: linear-gradient( 171.8deg,  rgba(255,159,0,1) -6.3%, rgba(208,23,23,1) 86.7% );
         width: 50px;
         height: 5px;
         border-radius: 10px;
         margin-bottom: 10px;
+
+        @media (max-width: 768px) {
+            margin: 15px auto;
+            width: 25%;
+        }
+    }
+
+    &__col {
+        @media (max-width: 768px) {
+            text-align: center;
+            margin-top: 25px;
+        }
     }
 
     &__list {

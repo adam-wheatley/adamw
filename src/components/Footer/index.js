@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className="footer">
         <div className="container">
           <div className="row">
-            <div className="col">
+            <div className="col-sm-12 col-md-3 footer__col">
               <h3>Navigation</h3>
               <div className="footer__pill" />
               <ul className="footer__list">
@@ -28,7 +28,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col">
+            <div className="col-sm-12 col-md-3 footer__col">
               <h3>Services</h3>
               <div className="footer__pill" />
               <ul className="footer__list">
@@ -49,14 +49,14 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col">
+            <div className="col-sm-12 col-md-3 footer__col">
               <h3>Contact Me</h3>
               <div className="footer__pill" />
               <h5>Click here... or</h5>
               <h5>info@adamwheatley.co.uk</h5>
               <h5>07393507971</h5>
             </div>
-            <div className="col">
+            <div className="col-sm-12 col-md-3 footer__col">
               <h3>Summary</h3>
               <div className="footer__pill" />
               <p>
