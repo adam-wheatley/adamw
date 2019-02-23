@@ -52,10 +52,13 @@
 
         &:last-child {
             margin-bottom: 125px;
+            @media (max-width: 576px) {
+                margin-bottom: 25px;
+             }
         }
 
         @media (max-width: 768px) {
-            margin-top: 0;
+            margin-top: 0px;
             text-align: center;
          }
 

@@ -29,9 +29,7 @@ const CaseStudies = () => {
             <h1>Web Development</h1>
             <div className="case-studies__header-pill" />
             <p className="case-studies__info-description">
-              Hey, I’m <b>Adam</b>. I am a freelance <b>web developer</b> that
-              aim's to provide hiqh quality, unqiue & custom web solutions to
-              fit your needs.
+              Developed using popular open source technologies allows me to produce performant, responsive & future proof web solutions.
             </p>
           </div>
         </div>
