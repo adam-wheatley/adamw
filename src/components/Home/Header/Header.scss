@@ -44,7 +44,7 @@
             &-text {
                 @media (max-width: 768px) {
                     font-size: 1.75rem;
-                    padding-top: 50px;
+                    padding-top: 40px;
                 }
             }
         }
@@ -80,6 +80,11 @@
                     cursor: pointer;
                     transform: scale(1.1);
                 }
+
+                @media (max-width: 768px) {
+                    margin-top: 35px;
+                }
+
 
                 &-alt {
                     background: none;
