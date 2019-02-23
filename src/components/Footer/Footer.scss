@@ -1,0 +1,39 @@
+.footer {
+    padding: 80px 0;
+    background: #22333B;
+    color: #FFF;
+    font-family: Gilroy-ExtraBold;
+
+    &__pill {
+        background-image: linear-gradient( 171.8deg,  rgba(255,159,0,1) -6.3%, rgba(208,23,23,1) 86.7% );
+        width: 50px;
+        height: 5px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    &__list {
+        padding-left: none;
+        margin: 0;
+        padding: 0;
+        &-item {
+            list-style: none;
+
+            & > a {
+                color: #FFF;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #FFF;
+    font-family: Gilroy-ExtraBold;
+    height: 50px;
+    background-image: linear-gradient( 171.8deg,  rgba(255,159,0,1) -6.3%, rgba(208,23,23,1) 86.7% );
+}

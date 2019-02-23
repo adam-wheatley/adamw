@@ -1,0 +1,36 @@
+.case-studies {
+    padding: 80px 0;
+
+    &__header {
+        text-align: center;
+        font-family: Gilroy-ExtraBold;
+        & > h1 {
+            font-size: 60px;
+        }
+    }
+
+    &__info {
+        font-family: Gilroy-ExtraBold;
+        margin-top: 175px;
+        text-align: left !important;
+        width: 100%;
+
+        &-img {
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        &-description {
+            margin-top: 25px;
+            font-size: 22.5px;
+
+            &-link {
+                font-size: 22.5px;
+            }
+        }
+
+        &:last-child {
+            margin-bottom: 125px;
+        }
+    }
+}
