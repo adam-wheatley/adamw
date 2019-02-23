@@ -5,6 +5,10 @@
     padding: 150px 0;
     overflow: hidden;
 
+    @media (max-width: 768px) {
+        padding: 75px 0;
+    }
+
     &__header {
         & > h1 {
             font-size: 60px;
