@@ -8,13 +8,13 @@ const About = () => {
         <div className="about">
             <div className="container">
             <div className="row">
-                <div className="col about__header">
+                <div className="col-sm-12 col-md-6 about__header">
                     <ScrollAnimation offset={-150} animateIn="fadeInLeft" duration="2" delay="1000" animateOnce>
                         <h1>Freelance Web Developer</h1>
                         <div className="about__header-pill"></div>
                     </ScrollAnimation>
                 </div>
-                <div className="col about__description">
+                <div className="col-sm-12 col-md-6 about__description">
                 <ScrollAnimation offset={-150} animateIn="fadeInRight" duration="2" delay="1000" animateOnce>
                     <p>
                         I'm Adam, a full-time web developer based in Scotland <img alt="scottish-flag" src={flag} height="25" className="mr-2" />

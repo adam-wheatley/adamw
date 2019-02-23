@@ -1,5 +1,5 @@
 .case-studies {
-    padding: 80px 0;
+    padding: 40px 0;
 
     &__header {
         text-align: center;
@@ -7,22 +7,43 @@
         & > h1 {
             font-size: 60px;
         }
+
+        &-pill {
+            background-image: linear-gradient( 171.8deg,  rgba(255,159,0,1) -6.3%, rgba(208,23,23,1) 86.7% );
+            width: 150px;
+            height: 10px;
+            border-radius: 10px;
+
+            @media (max-width: 768px) {
+               margin: 0 auto;
+             }
+        }
     }
 
     &__info {
         font-family: Gilroy-ExtraBold;
-        margin-top: 175px;
-        text-align: left !important;
-        width: 100%;
+        margin-top: 100px;
+        text-align: left;
 
         &-img {
             text-align: center;
             margin: 0 auto;
+            max-width: 100%;
+            padding: 25px;
+
+            @media (max-width: 768px) {
+                height: 150px;
+                margin: 25px auto;
+             }
         }
 
         &-description {
             margin-top: 25px;
             font-size: 22.5px;
+
+            @media (max-width: 576px) {
+                font-size: 18px;
+             }
 
             &-link {
                 font-size: 22.5px;
@@ -32,5 +53,11 @@
         &:last-child {
             margin-bottom: 125px;
         }
+
+        @media (max-width: 768px) {
+            margin-top: 50px;
+            text-align: center;
+         }
+
     }
 }
