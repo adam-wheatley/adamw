@@ -33,5 +33,9 @@
     &__description {
         font-family: Gilroy-Light;
         font-size: 25px;
+
+        @media (max-width: 768px) {
+            font-size: 20px;
+        }
     }
 }

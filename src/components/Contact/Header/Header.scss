@@ -1,4 +1,5 @@
 .contact-header {
+
     &__header {
         font-family: Gilroy-ExtraBold;
         background: url('./../../../images/bg2.jpg') center center no-repeat;
@@ -36,6 +37,11 @@
         margin: 50px auto;
         max-width: 800px;
         text-align: center;
+
+        @media (max-width: 768px) {
+            margin: 0;
+            padding: 0;
+        }
 
         &-control {
             text-align: center;

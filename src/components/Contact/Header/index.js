@@ -10,8 +10,6 @@ const ContactHeader = () => {
           If you are interested in hiring me, <br />
           or just have some questions please get in touch.
         </p>
-        <section className="contact-header">
-        <div className="container">
           <form
             className="contact-header__form"
             name="contact"
@@ -55,9 +53,7 @@ const ContactHeader = () => {
             </button>
           </form>
         </div>
-      </section>
       </div>
-    </div>
   )
 }
 
