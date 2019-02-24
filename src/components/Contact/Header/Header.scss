@@ -1,0 +1,61 @@
+.contact-header {
+    &__header {
+        font-family: Gilroy-ExtraBold;
+        background: url('./../../../images/bg2.jpg') center center no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+        margin-top: -80px;
+        padding-top: 160px;
+        padding-bottom: 80px;
+        text-align: center;
+        color: #fff;
+
+        @media (max-width: 768px) {
+            padding-bottom: 40px;
+        }
+
+        &-title {
+            font-size: 80px;
+
+            @media (max-width: 768px) {
+                font-size: 50px;
+            }
+        }
+
+        &-description {
+            font-size: 25px;
+
+            @media (max-width: 768px) {
+                font-size: 18px;
+            }
+        }
+    }
+
+    &__form {
+        margin: 50px auto;
+        max-width: 800px;
+        text-align: center;
+
+        &-control {
+            text-align: center;
+            margin: 5px;
+            font-size: 1.25rem;
+        }
+
+        &-btn {
+            border: none;
+            width: 100%;
+            margin-top: 5px;
+            padding: 10px;
+            font-size: 1.25rem;
+            border-radius: 5px;
+            color: white;
+            background-image: linear-gradient( 171.8deg,  rgba(255,159,0,1) -6.3%, rgba(208,23,23,1) 86.7% );
+        }
+    }
+}
+
+textarea {
+    min-height: 200px;
+}

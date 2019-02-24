@@ -5,7 +5,7 @@ import './Nav.scss'
 
 const NavigationBar = () => (
     <Navbar className="nav" expand="lg">
-        <Navbar.Brand className="nav__brand" href="#home">Adam Wheatley</Navbar.Brand>
+        <Link className="nav__brand" to="/">Adam Wheatley</Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="navbar-nav abs-center-x">
