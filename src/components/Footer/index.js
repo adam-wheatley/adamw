@@ -53,7 +53,7 @@ const Footer = () => {
               <h3>Contact Me</h3>
               <div className="footer__pill" />
               <h5>Click here... or</h5>
-              <h5 className="footer__email">info@adamwheatley.co.uk</h5>
+              <h5 className="footer__email">info@adamwheatley.uk</h5>
               <h5>07393507971</h5>
             </div>
             <div className="col-sm-12 col-md-6 col-lg-3 footer__col">
@@ -69,7 +69,7 @@ const Footer = () => {
         </div>
       </footer>
       <div className="footer-copyright">
-        <span>Adam Wheatley - 2019 © info@adamwheatley.co.uk</span>
+        <span>Adam Wheatley - 2019 © info@adamwheatley.uk</span>
       </div>
     </React.Fragment>
   );
