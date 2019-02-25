@@ -8,7 +8,7 @@ const Header = () => (
         <NavigationBar />
         <div className="header__main">
             <div className="header__main__title">
-                <ScrollAnimation offset="100" animateIn="fadeInDown" delay={500} animateOnce>
+                <ScrollAnimation offset={100} animateIn="fadeInDown" delay={500} animateOnce>
                     <h1 className="header__main__title-text">High Quality Bespoke Web Solutions</h1>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" delay={1250} animateOnce>

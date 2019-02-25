@@ -18,12 +18,12 @@ const CaseStudies = () => {
             </p>
           </div>
           <div className="col-sm-12 col-md-6 text-center">
-            <img src={Designer} height="250" className="case-studies__info-img" />
+            <img alt="Web Design" src={Designer} height="250" className="case-studies__info-img" />
           </div>
         </div>
         <div className="row case-studies__info">
           <div className="col-sm-12 col-md-6 text-center">
-            <img src={Dev} height="225" className="case-studies__info-img" />
+            <img alt="Web Development" src={Dev} height="225" className="case-studies__info-img" />
           </div>
           <div className="col-sm-12 col-md-6">
             <h1>Web Development</h1>
@@ -43,7 +43,7 @@ const CaseStudies = () => {
             </p>
           </div>
           <div className="col-sm-12 col-md-6 text-center">
-            <img src={Deploy} height="250" className="case-studies__info-img" />
+            <img alt="Web Deployment" src={Deploy} height="250" className="case-studies__info-img" />
           </div>
         </div>
       </div>
