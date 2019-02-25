@@ -12,19 +12,19 @@ const Footer = () => {
               <div className="footer__pill" />
               <ul className="footer__list">
                 <li className="footer__list-item">
-                  <a href="">Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li className="footer__list-item">
-                  <a href="">Work</a>
+                  <a href="/">Work</a>
                 </li>
                 <li className="footer__list-item">
-                  <a href="">Services</a>
+                  <a href="/">Services</a>
                 </li>
                 <li className="footer__list-item">
-                  <a href="">About</a>
+                  <a href="/">About</a>
                 </li>
                 <li className="footer__list-item">
-                  <a href="">Contact</a>
+                  <a href="/">Contact</a>
                 </li>
               </ul>
             </div>
@@ -33,19 +33,19 @@ const Footer = () => {
               <div className="footer__pill" />
               <ul className="footer__list">
                 <li className="footer__list-item">
-                  <a href="">Development</a>
+                  <a href="/">Development</a>
                 </li>
                 <li className="footer__list-item">
-                  <a href="">Design</a>
+                  <a href="/">Design</a>
                 </li>
                 <li className="footer__list-item">
-                  <a href="">Eccommerce</a>
+                  <a href="/">Eccommerce</a>
                 </li>
                 <li className="footer__list-item">
-                  <a href="">Booking Systems</a>
+                  <a href="/">Booking Systems</a>
                 </li>
                 <li className="footer__list-item">
-                  <a href="">Maintanance</a>
+                  <a href="/">Maintanance</a>
                 </li>
               </ul>
             </div>

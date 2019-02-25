@@ -1,6 +1,7 @@
 import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import NavigationBar from './../../../components/Nav';
+import { Link } from 'gatsby';
 import './Header.scss';
 
 const Header = () => (
@@ -16,7 +17,7 @@ const Header = () => (
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInUp" delay={1500} animateOnce>
                     <div className="header__main__buttons">
-                        <button className="header__main__buttons-button">Get in touch</button>
+                        <Link to="/contact"><button className="header__main__buttons-button">Get in touch</button></Link>
                         <button className="header__main__buttons-button-alt">Find out more</button>
                     </div>
                 </ScrollAnimation>
