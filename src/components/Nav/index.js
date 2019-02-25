@@ -89,7 +89,7 @@ const NavigationBar = () => (
                 <Link className="sidemenu-nav__list-item-link" to="/about">About</Link>
             </li>
                     <li className="sidemenu-nav__list-item">
-                    <Link className="sidemenu-nav__list-item-link" to="/services">Servcies</Link>
+                    <Link className="sidemenu-nav__list-item-link" to="/services">Services</Link>
                 </li>
                 <li className="sidemenu-nav__list-item">
                 <Link className="sidemenu-nav__list-item-link" to="/contact">Contact</Link>
