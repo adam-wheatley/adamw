@@ -1,12 +1,12 @@
 import React from "react"
 import "./Contact.scss"
 
-const ContactHeader = () => {
+const Contact = () => {
   return (
-    <div className="contact-header">
-      <div className="contact-header__header">
-        <h1 className="contact-header__header-title">Get in touch</h1>
-        <p className="contact-header__header-description">
+    <div className="contact">
+      <div className="contact__header">
+        <h1 className="contact__header-title">Get in touch</h1>
+        <p className="contact__header-description">
           If you are interested in hiring me, <br />
           or just have some questions please get in touch.
         </p>
@@ -16,12 +16,12 @@ const ContactHeader = () => {
           name="contact"
           method="POST"
           data-netlify="true"
-          className="contact-header__form"
+          className="contact__form"
         >
           <div className="form-group">
             <input
               type="text"
-              className="form-control contact-header__form-control"
+              className="form-control contact__form-control"
               name="name"
               placeholder="Full Name"
             />
@@ -29,7 +29,7 @@ const ContactHeader = () => {
           <div className="form-group">
             <input
               type="text"
-              className="form-control contact-header__form-control"
+              className="form-control contact__form-control"
               name="telephpne"
               placeholder="Telephone"
             />
@@ -37,12 +37,12 @@ const ContactHeader = () => {
           <div className="form-group">
             <textarea
               type="text"
-              className="form-control contact-header__form-control"
+              className="form-control contact__form-control"
               name="message"
               placeholder="Leave a message"
             />
           </div>
-          <button type="submit" className="contact-header__form-btn">
+          <button type="submit" className="contact__form-btn">
             Submit
           </button>
         </form>
@@ -51,4 +51,4 @@ const ContactHeader = () => {
   )
 }
 
-export default ContactHeader
+export default Contact
