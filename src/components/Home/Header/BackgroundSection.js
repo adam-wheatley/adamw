@@ -24,9 +24,9 @@ const BackgroundSection = ({ children }) => (
                                width: '100%',
                                minHeight: '50vh',
                                backgroundRepeat: 'repeat-y',
+                               backgroundImage: `linear-gradient(171.8deg,rgba(255,159,0,1) -6.3%, rgba(208,23,23,1) 86.7%)`
                            }}
                            fluid={imageData}
-                           backgroundColor={`#040e18`}
           >
             {children}
           </BackgroundImage>
