@@ -8,7 +8,6 @@ import Nav from '../components/Nav'
 const AboutPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`web`, `development`, `software`, `design`, `freelance`, `scotland`]} />
-    <Nav />
     <About />
   </Layout>
 )
