@@ -5,6 +5,12 @@ module.exports = {
     author: `Adam Wheatley`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-page-creator`,
+      options: {
+        path: `${__dirname}/src/pages`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

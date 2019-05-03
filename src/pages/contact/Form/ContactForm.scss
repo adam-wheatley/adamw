@@ -1,0 +1,20 @@
+.contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+
+    &__control {
+        text-align: center;
+    }
+    &__btn {
+        border: none;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        background-image: linear-gradient( 171.8deg,  rgba(255,159,0,1) -6.3%, rgba(208,23,23,1) 86.7% );
+        color: #FFF;
+    }
+}
+
+textarea {
+    min-height: 200px;
+}
