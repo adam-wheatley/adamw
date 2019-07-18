@@ -3,15 +3,14 @@ import PropTypes from "prop-types"
 import Footer from '../Footer'
 import SEO from '../SEO'
 
-import "animate.css/animate.min.css"
 import '../../scss/main.scss'
 
 const Layout = ({ children, seoTitle, seoKeywords }) => (
-  <div>
+  <React.Fragment>
     <SEO title={seoTitle} keywords={seoKeywords}/>
     <main>{children}</main>
     <Footer />
-  </div>
+  </React.Fragment>
 );
 
 Layout.defaultProps = {

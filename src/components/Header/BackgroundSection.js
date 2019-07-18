@@ -35,7 +35,6 @@ const BackgroundSection = ({ imageName, children, style }) => (
     `}
     render={({ images }) => {
       const file = images.edges.find(image => image.node.relativePath === imageName);
-      console.log(file, images, imageName);
       return <RenderImage file={file} style={style}>{children}</RenderImage>;
     }}
   />

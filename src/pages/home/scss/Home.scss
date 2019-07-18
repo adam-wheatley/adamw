@@ -5,7 +5,8 @@
         flex-direction: column;
         text-align: center;
         color: #EEE;
-
+        padding-bottom: 15px;
+        
         @media (max-width: 768px) {
             min-height: 150px;
         }
@@ -14,8 +15,9 @@
             max-width: 700px;
             margin: 0 auto;
             font-family: Gilroy-ExtraBold;
-
+            
             &-text {
+                // font-size: 4rem;
                 @media (max-width: 768px) {
                     font-size: 1.75rem;
                     padding-top: 40px;
@@ -38,6 +40,7 @@
         &__buttons {
             display: inline;
             text-align: center;
+
             &-button {
                 font-family: Gilroy-ExtraBold;
                 padding: 10px 20px;
@@ -50,6 +53,7 @@
                 color: #22333B;
                 box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
                 transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+                // font-size: 1.5rem;
 
                 &:hover {
                     cursor: pointer;
@@ -72,6 +76,7 @@
                     margin: 20px 10px;
                     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
                     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+                    // font-size: 1.5rem;
 
                     @media (max-width: 568px) {
                         display: none;

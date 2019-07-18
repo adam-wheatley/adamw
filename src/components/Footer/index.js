@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'gatsby';
 import './Footer.scss';
 
 const Footer = () => {
@@ -12,19 +13,19 @@ const Footer = () => {
               <div className="footer__pill" />
               <ul className="footer__list">
                 <li className="footer__list-item">
-                  <a href="/">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li className="footer__list-item">
-                  <a href="/">Work</a>
+                  <Link to="/">Work</Link>
                 </li>
                 <li className="footer__list-item">
-                  <a href="/">Services</a>
+                  <Link to="/services">Services</Link>
                 </li>
                 <li className="footer__list-item">
-                  <a href="/">About</a>
+                  <Link to="/about">About</Link>
                 </li>
                 <li className="footer__list-item">
-                  <a href="/">Contact</a>
+                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </div>
