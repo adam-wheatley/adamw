@@ -1,10 +1,17 @@
 import React from "react";
 import { Link } from 'gatsby';
+import BackgroundSection from "../Header/BackgroundSection"
+
 import './Footer.scss';
 
 const Footer = () => {
   return (
-    <React.Fragment>
+    <BackgroundSection
+    imageName="bg1.jpg"
+    style={{
+      width: "100%",
+      backgroundRepeat: "repeat-y",  
+      }}>
       <footer className="footer">
         <div className="container">
           <div className="row">
@@ -72,7 +79,7 @@ const Footer = () => {
       <div className="footer-copyright">
         <span>Adam Wheatley - 2019 © info@adamwheatley.uk</span>
       </div>
-    </React.Fragment>
+    </BackgroundSection>
   );
 };
 

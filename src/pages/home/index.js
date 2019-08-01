@@ -1,12 +1,10 @@
 import React from "react"
-import ScrollAnimation from "react-animate-on-scroll"
 import { Link } from "gatsby"
 import Layout from "../../components/Layout"
 import Header from "../../components/Header"
-import About from "./About"
 import AboutMe from "./AboutMe"
-import Services from "./Services"
-import WhatCanIdo from './WhatCanIdo'
+import GetStarted from './GetStarted';
+import MyProcess from './MyProcess';
 import "./scss/Home.scss"
 
 const HomePage = () => (
@@ -16,6 +14,7 @@ const HomePage = () => (
         width: "100%",
         minHeight: "50vh",
         backgroundRepeat: "repeat-y",
+        boxShadow: '0px 15px 10px -15px #111',    
       }}
       imageName="bg1.jpg"
     >
@@ -42,9 +41,16 @@ const HomePage = () => (
         </div>
       </div>
     </Header>
-    <AboutMe />
+    {/* <AboutMe />
     <Services />
-    <WhatCanIdo />
+    <WhatCanIdo /> */}
+    {/* <section style={{ background: '#fff', minHeight: '1000px'}}>
+
+    </section> */}
+
+    <AboutMe />
+    <MyProcess />
+    <GetStarted />
 
     {/* <AboutMe />
     <WhatCanIdo />
